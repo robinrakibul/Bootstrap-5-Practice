@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Frontend Bootcamp</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <a href="#" class="navbar">
+            <div class="container">
+                <a href="#" class="navbar-brand">Frontend Bootstrap 5 Design</a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                    </ul>
+                </div>
+
+            </div>
+        </a>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 py-6 text-center">
+        <div class="container">
+            <div class="d-flex align-items-center">
+            <div>
+                <h1>I am a <span class="text-warning">
+                    web developer
+                    </span> </h1>
+                <p class="lead">
+                    It is a webpage build with HTML, Inline CSS and Bootstrap 5 which is responsive.
+                </p>
+                <button class="btn btn-primary btn-lg">
+                    Quick Start
+                </button>
+            </div>
+            <img class="img-fluid w-50" src="img/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4 class="d-flex">
+                Sign Up For Newsletter
+            </h4>
+            <div class="input-group mb-3">
+                <input 
+                type="text" class="form-control" 
+                placeholder="Enter Email" 
+                >
+                <button class="btn bg-dark btn-lg" 
+                    style="color:white"
+                 type="button" 
+                 id="button-addon2">
+                    Submit</button>
+              </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+
+            <div class="card bg-dark text-light" style="width: 18rem;">
+                <i class="h1 bi bi-laptop"></i>
+                
+                <div class="card-body">
+                  <h5 class="card-title">Static</h5>
+                  <p class="card-text">This page is static but a responsive page</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            
+            </div>
+
+
+            <div class="col">
+                <div class="card bg-dark text-light" style="width: 18rem;">
+                    <i class="h1 bi bi-image"></i>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Test</h5>
+                      <p class="card-text">This page is designed to learn Bootstrap 5</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark text-light" style="width: 18rem;">
+                    <i class="h1 bi bi-people"></i>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Learn</h5>
+                      <p class="card-text">learned Bootstrap 5 using crash course</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Learn Sections -->
+<section class="p-5" id="learn">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+<div class="col-md">
+    <img src="img/fundamentals.jpg" class=="img-fluid" alt="">
+</div>
+<div class="col" id="learn">
+
+    <h2>Learn The Fundamentals</h2>
+    <p class="lead">
+    Learn the fundamentals and basics first to try new things everyday.
+    </p>
+    <a href="#" class="btn btn-light mt-3">
+    
+</div>
+        <span class="lead">Read More</span><i class="bi bi-chevron-up"></i>
+    </a>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- Instructors -->
+<section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white">
+            Instructors
+        </h2>
+        <p class="lead text-white">To learn you can follow these intructors</p>
+        <p class="lead text-white">
+            Collection from <a href="https://randomuser.me" 
+            class="text-white" style="text-decoration: none">Randomuser</a>
+        </p>
+        
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="John Smith"</h3>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="John Smith"</h3>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="John Smith"</h3>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/4.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="John Smith"</h3>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact -->
+<section id="instructors" class="p-5 bg-white">
+    <div class="container">
+        <h2 class="text-center text-white">
+            <h2 class="text-center text-white">Contact Info</h2>
+        <div class="span">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14605.642930463195!2d90.4255665!3d23.768384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3e87f7b866c0e38!2sEast%20West%20University!5e0!3m2!1sbn!2sbd!4v1632901520111!5m2!1sbn!2sbd" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    	</div>
+    	<br>
+      	<div class="span">
+    		<address>
+    			<strong>East West University</strong><br>
+    			Jahurul Islam City Gate, A/2 Jahurul Islam Ave, ঢাকা 1212
+    		</address>
+    	</div>
+    </div>
+</div>
+</section>
+<!-- Footer -->
+<section class="p-5 bg-dark text-white text-center">
+    <div class="container">
+            <p class="lead">Copyright &copy robinrakibul</p>
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
